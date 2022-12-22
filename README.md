@@ -66,7 +66,7 @@ In `Advanced Settings`:
     * Check `Enable auto-restart`
 * Volume
     * File `docker/telegraf/etc/telegraf/telegraf.conf` -> `/etc/telegraf/telegraf.conf` (as read-only)
-    * Folder `docker/telegraf/mibs` -> `/mibs` (as read-only)
+    * Folder `docker/telegraf/mibs` -> `/usr/share/snmp/mibs` (as read-only)
 * Network
     * Check `Use the same network as Docker Host`
 
